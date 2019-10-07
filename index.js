@@ -17,5 +17,8 @@ function mapToSquare(source) {
 
 function reduceToTotal(source) {
   init = 0
-  source.reduce(init, function(i) {})
+  for (let i = init; i < source.length, i++) {
+    init += source[i];
+  }
+  return init;
 }
