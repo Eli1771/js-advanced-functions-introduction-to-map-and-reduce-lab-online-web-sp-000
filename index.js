@@ -24,5 +24,8 @@ function reduceToTotal(source, init=0) {
 }
 
 function reduceToAllTrue(source) {
-  
+  let init = true;
+  for (let i = 0; i < source.length; i++) {
+    init = init && !!source[i];
+  }
 }
