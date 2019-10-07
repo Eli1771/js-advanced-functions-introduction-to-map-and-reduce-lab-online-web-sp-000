@@ -30,3 +30,11 @@ function reduceToAllTrue(source) {
   }
   return init;
 }
+
+function reduceToAnyTrue(source) {
+  let init = false;
+  for (let i = 0; i < source.length; i++) {
+    init = init || !!source[i];
+  }
+  return init;
+}
