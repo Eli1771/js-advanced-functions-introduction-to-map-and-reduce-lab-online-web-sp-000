@@ -15,6 +15,7 @@ function mapToSquare(source) {
   return source.map(i => i * i);
 }
 
-function reduceToTotal(source, init=0) {
+function reduceToTotal(source) {
+  init = 0
   source.reduce(0, function(i) {})
 }
