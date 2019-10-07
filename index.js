@@ -22,3 +22,7 @@ function reduceToTotal(source, init=0) {
   }
   return start;
 }
+
+function reduceToAllTrue(source) {
+  
+}
