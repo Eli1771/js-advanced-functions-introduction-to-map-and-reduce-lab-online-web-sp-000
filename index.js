@@ -28,5 +28,5 @@ function reduceToAllTrue(source) {
   for (let i = 0; i < source.length; i++) {
     init = init && !!source[i];
   }
-  return init
+  return init;
 }
